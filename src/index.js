@@ -7,13 +7,22 @@ import ReactDOM from "react-dom";
 
 function Booklist() {
   return (
-    <Book
-      author="Colleen Hoover"
-      type="Paperback"
-      price="45.52"
-      title="It Ends with Us"
-      cover="https://images-na.ssl-images-amazon.com/images/I/51irsfz72HL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg"
-    />
+    <>
+      <Book
+        author="Colleen Hoover"
+        type="Paperback"
+        price="45.52"
+        title="It Ends with Us"
+        cover="https://images-na.ssl-images-amazon.com/images/I/51irsfz72HL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg"
+      />
+      <Book
+        author="Colleen Hoover"
+        type="Paperback"
+        price="45.52"
+        title="It Ends with Us"
+        cover="https://images-na.ssl-images-amazon.com/images/I/51irsfz72HL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg"
+      />
+    </>
   );
 }
 
